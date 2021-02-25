@@ -64,7 +64,7 @@
                     "data": "emp_no",
                     "createdCell": function (td, cellData, rowData, row, col) {
                         $(td).text('');
-                        var button = $(`<a href=${url}/${cellData}><i class='icon fas fa-edit' id='${cellData}'></i>`);
+                        var button = $(`<a href=${url}/${cellData}><i>Edit</i>`);
                         $(td).append(button);
                     },
                     "defaultContent": ""
